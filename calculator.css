@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Roboto:ital,wght@1,300&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Roboto;
+}
+
+
+.container {
+  color:white;
+  text-align: center;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  background-color: #38468f;
+  padding: 20px;
+}
+.flex{
+  display: flex;
+  
+}
+.flex-col{
+  flex-direction:column;
+}
+.input{
+  margin:auto;
+  font-size: 20px;
+  padding:6px 0px;
+  background-color: #20325a;
+  border: 3px solid black;
+}
+#display {
+  margin: auto;
+  height: 50px;
+  width: 250px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  
+}
+
+.keypad {
+  margin: auto;
+  background-color: #20325a;
+  height: 250px;
+  width: 250px;
+  border: 3px solid #0d0c0c;
+}
+button{
+  height:40px;
+  width:45px;
+  border-radius:9px;
+  padding: 11px;
+  cursor: pointer;
+}
+.Row1 button{
+  height:40px;
+  width:90px;
+}
+.reset{
+  color:white;
+  background-color: #611f1f;
+}
+.equals{
+  color:white;
+  background-color:#b30000;
+}
+.Row{
+  margin:10px;
+}
+.display input{
+  border-radius: 5px;
+}
+.delete{
+  background-color: #611f1f;
+  color:white;
+}
+button:hover{
+  background-color: #9a4309;
+}
